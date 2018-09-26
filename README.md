@@ -36,6 +36,7 @@
 + 安裝 Python 套件
 
 #### 介紹
+
 [Say "Hello World with Python"](https://www.hackerrank.com/challenges/py-hello-world/problem)
 >簡單的 Hello World，需要先知道 print() 這個概念
 
@@ -92,54 +93,57 @@ for num in arr:
 [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem)
 >需要用比較複雜的資料結構
 
-Finding the percentage
+[Finding the percentage](https://www.hackerrank.com/challenges/finding-the-percentage)
 >
 
-Lists
+[Lists](https://www.hackerrank.com/challenges/python-lists/problem)
 >
 
-Tuples
+[Tuples](https://www.hackerrank.com/challenges/python-tuples/problem)
 >
+
 
 #### 字串
 
-sWAP cASE
+[sWAP cASE](https://www.hackerrank.com/challenges/swap-case/problem)
+>大小字串互換，還有更好的方法。
+
+```python
+def to_alternating_case(string):
+    result =[word.lower() if word.isupper() else word.upper() for word in string]
+    return ''.join(result)
+
+def to_alternating_case(string):
+    result = map(lambda word:word.lower() if word.isupper() else word.upper(), string)
+    return ''.join(result)
+```
+
+[String Split and Join](https://www.hackerrank.com/challenges/python-string-split-and-join/problem)
 >
 
-String Split and Join
+[What's Your Name?](https://www.hackerrank.com/challenges/whats-your-name/problem)
 >
 
-What's Your Name?
+[Mutations](https://www.hackerrank.com/challenges/python-mutations/problem)
 >
 
-Mutations
+[Find a string](https://www.hackerrank.com/challenges/find-a-string/problem)
 >
 
-Find a string
+[String Validators](https://www.hackerrank.com/challenges/string-validators/problem)
 >
 
-String Validators
+[Text Alignment](https://www.hackerrank.com/challenges/text-alignment/problem)
 >
 
-Text Alignment
+[Text Wrap](https://www.hackerrank.com/challenges/text-wrap/problem)
 >
 
-Text Wrap
->
-
-
-下面練習課後有興趣想加強自己完成
-
-D21 Generics
->
-
-D22 Binary Search Trees
->
 
 
 ### 進階應用
 
-(TODO: 要使用 Request, Selemiun, 會用到 lxml)
+(TODO: 要使用 Request, Selemiun, 使用 lxml parser)
 開發一個爬蟲作。
     
    + PTT
@@ -156,6 +160,7 @@ D22 Binary Search Trees
 ## 參考資源
 
 + [Google Python tutorial](https://developers.google.com/edu/python/introduction)
++ [Victor's JupyterNotebook 介紹](https://github.com/victorgau/KHPY20180324)
 + [視覺顯示程式碼運作](http://www.pythontutor.com/)
 + [亮亮 - Python 初學指南](https://blog.liang2.tw/posts/2016/01/lab-coding-python/)
 + [RealPython - 豐富的線上課程](https://realpython.com/)
