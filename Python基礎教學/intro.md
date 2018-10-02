@@ -1,0 +1,134 @@
+# Python 簡介
+
+
+## Python 是什麼？ 
+
+Python 是一種動態(dynamic), 直譯式(interpreted), 位元組碼編譯(bytecode-compiled)的語言。不需要對程式碼內的變數、參數、函式甚至是方法不用做任何的型態宣告。型態得確定是 Python 執行(runtime)時候才會做標註。
+
+
+## Python 的歷史？
+
+Guido van Rossum 在 1989年聖誕節無聊創造 Python 這個語言，當時 Guido 在學習 ABC 語言認為其優美且強大且適合非專業的程式設計師，不過 ABC 語言被未成功，Guido 認為是非開放，所以 Python 的發展過程被避免這個錯誤。Guido 也被被稱為 Python 之父，因為他在工作之餘也長期投入 Python 的發展(語法改進、新功能等等等)並且在關鍵時刻決定 Python 的走向也被稱為終身仁慈的獨裁者(Benevolent Dictator For Life, BDFL)，不過 2018 年 7 月 12 日在遭遇 PEP 572 事件，遭受酸民們的酸言酸語後(備註:個人認為)，他決定卸下這個職位。
+
+
+## 如何開始學習 Python？
+
+學習 Python 一種很好方法是打開 Python 的直譯器，直接鍵入代碼，例如: 你想知道增加一個 int 到 list 會發生怎樣狀況，直接使用直譯器就能快速查看結果。看看下面範例吧:
+
+```
+$ python
+
+Python 3.6.5 (default, Jun  3 2018, 11:11:25)
+[GCC 4.2.1 Compatible Clang 3.9.1 (tags/RELEASE_391/final)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = 6
+>>> a
+6
+>>> a + 2
+8
+>>> a = 'hi'
+>>> len(a)
+2
+>>> a + len(a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: must be str, not int
+>>> a + str(a)
+'hihi'
+>>> a + str(len(a))
+'hi2'
+>>> foo
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'foo' is not defined
+>>>
+```
+
+上面範例:
+1. 變數可以直接賦值: 例如 a 可以再執行時隨意變成數值或是字串，另外與 Java 一樣 a, A 在 Python 是不同變數
+2. 字串與數值因為不同型態，無法結合
+3. 程式碼發生錯誤觸發 error 時，會拋出(raise)運作時的錯誤訊息
+
+
+## Python 哲學？
+
+優雅、明確、簡單就是 Python 語言所倡導。Python 的開發哲學: 用一種方法，且最好是只有一種方法來做一件事(「There should be one – and preferably only one – obvious way to do it.」)。你也可以從直譯器裡 `import this` 體會 Python 哲學:
+
+```python
+import this
+
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+```
+
+## Python 開發軟體的好處？
+
+早期 Google 大量使用 Python 來開發軟體，原因是在不考慮效能下快速將產品實作出。因為 Python 開源精神，Python 有一個很強大的套件庫 [Pypi](https://pypi.org/) 任何人都可以使用 Python 開發自己的套件或者模組，然後上傳到這個套件庫提供所有人使用，同時你也可以在上面搜尋其他人貢獻的成果直接安裝套件，這樣往往可以著重在程式邏輯與流程進而加速開發。
+
+Python 不同於 C/C++/C# 等這類需要編譯的程式語言，可以直接使用編譯器去驗證心裡所想的邏輯，這對於非專業或是剛入門的程式設計師能夠不需要花費太多等待儘量去嘗試。
+
+
+## Python 如何安裝？
+
+如果你的電腦系統是 Windows 且是剛學習 Python 通常我們會建議直接使用 Anaconda 來安裝它，其他作業系統例如 Mac 的 OSX 或是 Linux 的 Ubuntu 等等本身則就內建 Python 但通常內建的版本不會是最新，尤其是舊版本通常運作 Python 2.x 因此也可以選擇使用 Anaconda 來安裝另一個新環境(不會取代內建而是共存)
+
+[Anaconda 下載網址](https://www.anaconda.com/download/)
+
+
+但如果你喜歡純粹的 Python 環境，那可以到官網上直接下載安裝檔案，另外 Mac 系列的作業系統可以安裝 [Homebrew](https://brew.sh/index_zh-tw) ，並直接使用他在終端機上下指令安裝
+
+[Python 下載網址](https://www.python.org/downloads/)
+
+
+## Python 套件安裝
+
+使用 Anaconda 來安裝 Python，建議用 Anaconda 指令在終端機安裝套件的指令:
+
+```
+conda install 套件名稱
+```
+
+Python 則使用 pip 套件來安裝其他不同套件，Anaconda 底下也可以這樣安裝套件但建議區隔
+
+```
+pip install 套件名稱
+```
+
+
+## Python 編輯器
+
+適合你的編輯器可以讓開發程式更順暢，以下是我們`建議`的編輯器:
+
+[vim](https://www.vim.org/)
+[Visual Studio Code (Microsoft) ](https://code.visualstudio.com/)
+[PyCharm (JetBrains)](https://www.jetbrains.com/pycharm/) --> 社群版免費，但進階版付費
+[Atom (GitHub)](https://atom.io/)
+[Sublime Text 3](https://www.sublimetext.com/)
+[Notepad++](http://notepad-plus-plus.org/)
+
+
+通常會`反對`你使用以下工具來編輯:
+
+Microsoft Word
+Windows「記事本」
+OS X 內建「文字編輯」
+IDLE

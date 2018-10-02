@@ -17,15 +17,18 @@
 
 ### 安裝與環境設定
 
-建議 3.7.0 版本，但一定要 3.5 以後。
+建議安裝 3.7 版本，至少要 3.5 以上。
 
-(TODO: 要有個安裝教學檔案)
-科學計算或是教學：使用 Python 3.7 + Jupyter notebook 作為基礎環境＋編譯器，因此會使用 Anaconda 來安裝 Python。
++ 科學計算或是教學：使用 Python 3.7 + Jupyter notebook 作為基礎環境＋編譯器，因此會使用 Anaconda 來安裝 Python。
+    - [Anaconda 下載網址](https://www.anaconda.com/download/)
 
-(TODO: 要有個安裝教學檔案)
-軟體開發角度：安裝原生 Python 3.7 + VS CODE 開發。因此會直接安裝原生 CPython。 
 
-建立 Python 虛擬環境(Conda and 原生 Python)
++ 軟體開發角度：安裝原生 Python 3.7 + VS CODE 開發。因此會直接安裝原生 CPython。
+    - [Python 下載網址](https://www.python.org/downloads/)
+    - [Visual Studio Code 下載網址](https://code.visualstudio.com/)
+
+
++ 建立 Python 虛擬環境(Conda and 原生 Python)
 
 
 ### 基礎教學
@@ -34,6 +37,7 @@
 + Hankrank 線上學習程式網站作為講師會講解每一個挑戰大概先備知識，接著開始試著學習。
 + 介紹 Python 的程式風格與 PEP
 + 安裝 Python 套件
+
 
 #### 介紹
 
@@ -227,3 +231,5 @@ def wrap(string, max_width):
 + [RealPython - 豐富的線上課程](https://realpython.com/)
 + [線上手把手學習 Python](https://www.codecademy.com/learn/learn-python)
 + [爬蟲教學](https://github.com/leVirve/CrawlerTutorial)
++ [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org/runestone/static/pythonds/index.html)
++ [Python build-in function](https://docs.python.org/3/library/functions.html#all)
