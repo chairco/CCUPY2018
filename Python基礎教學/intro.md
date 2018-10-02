@@ -1,4 +1,3 @@
-
 # Python 簡介
 
 
@@ -108,6 +107,9 @@ Python 不同於 `C/C++/C#/Java/go/Rust/` 等這類需要編譯的程式語言�
 另外 Mac 系列的作業系統使用 [Homebrew](https://brew.sh/index_zh-tw) 這個軟體，並直接在終端機上下指令使用 `brew` 安裝
 
 
+最後我們建議你使用 Python 3.x 因為 Python 2.x 已經宣布在 2020 年會停止支援，更進一步會建議至少要 3.5 以上，但 3.7 是推薦的。
+
+
 ## Python 內建函式
 
 Python 的中心思想之一是「batteries included」，用來形容 Python 的內建函式庫包山包海，可以方便解決各種需求，而不需要程式設計師為了各個專案，重複建構許多常用的輔助工具。[參考](https://pycontw.kktix.cc/events/tutorial-pycon2015)
@@ -128,6 +130,26 @@ Python 內有個 pip 套件來安裝其他不同套件，Anaconda 底下也可�
 ```
 pip install 套件名稱
 ```
+
+
+## Python 虛擬環境
+
+通常開發過程一台電腦上不會只有一個專案，每個專案也可能會有測試的環境，因此你不會希望你所有的 Python 套件都安裝在一個環境上，因為有可能你需要不同的版本來進行測試或是因為某個原因只想使用某種版本套件。
+
+在 Python 能夠協助你創造一個虛擬環境，虛擬環境會將套件等區隔於你的實體環境上，因此你能夠盡情的在虛擬環境上試驗不同的套件，然後刪除他也不會影響你的主要環境。
+
+建立虛擬環境的方法很簡單:
+
+```
+$ python -m venv 你的虛擬環境名稱
+```
+
+如果使用 Anaconda 則是:
+```
+$ conda create -m venv python=3.7
+``` 
+
+更多請參考: https://conda.io/docs/user-guide/tasks/manage-environments.html
 
 
 ## Python 編輯器
@@ -158,9 +180,4 @@ IDLE
 
 每個人理解的方法與學習的速度皆會有差異，講師的講解也可能是影響你吸收的關鍵，因此不要因課堂中跟不上而擔心難過，重要的是你已經開始想要學會這個語言，因此更多學習應該是從課堂之後開始。
 
-當遭遇不懂，或是卡關可以加入 facebook 的 Python Taiwan 論壇或是 Ptt Python 版或是 Slack 等等群組去問問題。但不要忘記**在問問題之前你是不是已經先做過功課**，更要特別注意是問問題的**方法、禮貌與態度**，因為網路上的朋友和我一樣都是因為熱情才來指導你，讓別人感覺的備受尊重你也能獲得更多的幫助！更是強烈建議在問問題之前先看看這篇文章:[如何提問](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
-
-
-
-
-
+當遭遇不懂，或是卡關可以加入 facebook 的 Python Taiwan 論壇或是 Ptt Python 版或是 Slack 等等群組去問問題。但不要忘記**在問問題之前你是不是已經先做過功課**，更要特別注意是問問題的**方法、禮貌與態度**，因為網路上的朋友和我一樣都是因為熱情才來指導你，讓別人感受你的尊重也才能獲得更多的幫助，對吧！更是強烈建議在問問題之前先看看這篇文章:[如何提問](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
