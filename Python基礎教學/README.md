@@ -13,10 +13,6 @@
 (TODO:簡單註冊教學檔案)
 + [GitHub](https://github.com/) 帳號
 + 使用 Github 帳號註冊接續註冊 [Hankrank](https://www.hackerrank.com/dashboard) 帳號
-
-
-### 安裝與環境設定
-
 + 科學計算或是教學：使用 Python 3.7 + Jupyter notebook 作為基礎環境＋編譯器，因此會使用 Anaconda 來安裝 Python。
 + 軟體開發角度：安裝原生 Python 3.7 + VS CODE 開發。因此會直接安裝原生 CPython。
 
@@ -34,15 +30,15 @@
 (TODO: 要使用 Request, Selemiun, 使用 lxml parser)
 開發一個爬蟲作。
     
-   + PTT
-   + Javascrip 的網站
++ PTT
++ Javascrip 的網站
 
 
 ### 環境管理
 
-   + 系統內 Python 版本管理
-   + 專案的管理
-   + 套件的管理
++ 系統內 Python 版本管理
++ 專案的管理
++ 套件的管理
 
 
 ## 參考資源
