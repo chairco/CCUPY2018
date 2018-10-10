@@ -1,55 +1,50 @@
 # CCUPY2018
 
-## 基礎 Python 課程內容
+## 基礎 Python 課程目標
 
-(TODO:放在投影片)
+手把手一步步帶大家進入 Python 世界，課程中我們期待所有人都能打造自己的一把 Python 寶劍
+
+(TODO:投影片)
 介紹講師、助教，並且介紹 Python 程式語言以及社群資源、自學資源等等。
+
+(TODO: 用 Jupyter notebook 分類給學員參考的先備知識)
+Hankrank 線上學習程式網站作為講師會講解每一個挑戰大概先備知識，接著開始試著學習。
 
 
 ### 帳號註冊與安裝
 
-課程會使用 Github 與 Hankrank 讓同學可以課後自主練習，因此要先註冊這兩個帳號。
-
-(TODO:簡單註冊教學檔案)
-+ [GitHub](https://github.com/) 帳號
-+ 使用 Github 帳號註冊接續註冊 [Hankrank](https://www.hackerrank.com/dashboard) 帳號
-+ 科學計算或是教學：使用 Python 3.7 + Jupyter notebook 作為基礎環境＋編譯器，因此會使用 Anaconda 來安裝 Python。
-+ 軟體開發角度：安裝原生 Python 3.7 + VS CODE 開發。因此會直接安裝原生 CPython。
+課程會使用 Github 與 Hankrank 讓同學可以課後自主練習，因此要先註冊這兩個帳號。如果你還沒完成先參考[課前準備](https://github.com/chairco/CCUPY2018/blob/master/%E8%AA%B2%E5%89%8D%E6%BA%96%E5%82%99.md)
 
 
-### 基礎教學
+### 課程大綱
 
-(TODO: 用 Jupyter notebook 分類給學員參考的先備知識)
-+ Hankrank 線上學習程式網站作為講師會講解每一個挑戰大概先備知識，接著開始試著學習。
-+ 介紹 Python 的程式風格與 PEP
-+ 安裝 Python 套件
-
-
-### 進階應用
-
-(TODO: 要使用 Request, Selemiun, 使用 lxml parser)
-開發一個爬蟲作。
++ 環境設定與 Hello World!
+    + 安裝 Python 環境 Anaconda (Mac OS, Windows, Linux) 
+    + 編輯器 VS CODE, Sublime 簡介
+    + 科學計算的好幫手: Jupyter Notebook 簡介
+    + Git, Github 介紹
+    + PyConTW 介紹
     
-+ PTT
-+ Javascrip 的網站
++ 基礎語法（基本運算與條件判斷）
+    + Python 簡介
+    + 基本資料型態
+    + 基本語法
+    + 運算符號
+    + if..else, 條件式-01,02 判斷式 
+    + for 迴圈
+    + 內建函式
+    
++ 資料結構
+    + 基本資料結構
+        + Dict
+        + List
+    + 進階資料結構
+        + Queue
+    + 檔案讀寫IO-文字檔
 
++ 站在巨人肩膀上使用別人寫好的工具快速開發
+    + pypi 套件庫
+    + 安裝套件教學
 
-### 環境管理
-
-+ 系統內 Python 版本管理
-+ 專案的管理
-+ 套件的管理
-
-
-## 參考資源
-
-+ [Google Python tutorial](https://developers.google.com/edu/python/introduction)
-+ [Victor's JupyterNotebook 介紹](https://github.com/victorgau/KHPY20180324)
-+ [視覺顯示程式碼運作](http://www.pythontutor.com/)
-+ [亮亮 - Python 初學指南](https://blog.liang2.tw/posts/2016/01/lab-coding-python/)
-+ [RealPython - 豐富的線上課程](https://realpython.com/)
-+ [線上手把手學習 Python](https://www.codecademy.com/learn/learn-python)
-+ [爬蟲教學](https://github.com/leVirve/CrawlerTutorial)
-+ [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org/runestone/static/pythonds/index.html)
-+ [Python build-in function](https://docs.python.org/3/library/functions.html#all)
-+ [Google Python 風格](http://google-styleguide.googlecode.com/svn/trunk/pyguide.html)
++ 助教時間
+    + 解決課程沒理解部分
