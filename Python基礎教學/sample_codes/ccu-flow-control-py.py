@@ -46,3 +46,41 @@ if 70 <= score <= 90:
 
 if 90 >= score >= 70:
     print('score between 70~90')
+
+
+c = 0
+while True:
+    print(f'c = {c} continue...')
+    if c == 9:
+        break
+    c += 1
+
+print('*'*10)
+
+c = 0
+while c <= 9:
+    print(f"c = {c} continue...")
+    c += 1
+
+
+#byte.py
+w=b"\x74\x61\x69\x70\x65\x69"
+print(w)
+a=bytes.fromhex("746169706569")
+print(a)
+print(type(a))
+bytearr = bytearray(a)
+print(bytearr)
+print(type(bytearr))
+bytearr.pop()
+print(bytearr)
+bytearr.pop()
+print(bytearr)
+bytearr.pop()
+print(bytearr)
+bytearr.append(110)
+print(bytearr)
+bytearr.append(97)
+print(bytearr)
+bytearr.append(ord("n"))
+print(bytearr)

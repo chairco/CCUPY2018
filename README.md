@@ -34,3 +34,4 @@
 + [Python tips](http://book.pythontips.com/en/latest/index.html)
 + [Git 基礎教學](http://djangogirlstaipei.herokuapp.com/tutorials/version-control-with-git/?os=windows)
 + [Git-it](http://jlord.us/git-it/index-zhtw.html)
++ [成為 Python 數據分析達人的第一課](http://moocs.nccu.edu.tw/course/121/section/lecture/)

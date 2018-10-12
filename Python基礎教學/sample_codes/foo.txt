@@ -1,0 +1,3 @@
+Hello World
+you write a data in foo.txt
+Hellohello world
