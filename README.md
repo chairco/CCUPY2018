@@ -6,6 +6,7 @@
 ## 20181014 基礎教學
 
 [課程資料夾](/Python基礎教學)
+[問卷](https://docs.google.com/forms/d/e/1FAIpQLSf4HrFB3ysDJYvrFF3b_yeU9kR3Dem-e_GiSlKwUseYYnRKag/viewform?usp=send_form)
 
 
 ## 20181021 中階教學
