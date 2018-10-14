@@ -1,4 +1,4 @@
-# HackRank 練習
+# HackerRank 練習
 
 #### 介紹
 
