@@ -1,7 +1,8 @@
 # not upload
 note.md
 list.md
-rawlerTutorial/
+CrawlerTutorial/
+PythonCrawler/
 
 # local test file
 client/
