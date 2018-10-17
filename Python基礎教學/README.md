@@ -1,13 +1,11 @@
-# CCUPY2018
+# 基礎 Python 課程目標
 
-## 基礎 Python 課程目標
-
-手把手一步步帶大家進入 Python 世界，課程中我們期待所有人都能打造自己的一把 Python 寶劍
+手把手一步步帶大家進入 Python 世界，課程中我們期待所有人都能打造自己的一把 Python 寶劍。開始之前您可以研讀這份[簡介](intro.md)簡單先了解 Python 這個程式語言。
 
 
 ### 帳號註冊與安裝
 
-課程會使用 Github 與 Hankrank 讓同學可以課後自主練習，因此要先註冊這兩個帳號。如果你還沒完成先參考[課前準備](https://github.com/chairco/CCUPY2018/blob/master/%E8%AA%B2%E5%89%8D%E6%BA%96%E5%82%99.md)
+課程會使用 Github 與 Hankrank 讓同學可以課後自主練習，因此要先註冊這兩個帳號。如果你還沒完成請先參考[課前準備](課前準備.md)
 
 
 ### 課程大綱
