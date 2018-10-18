@@ -17,11 +17,11 @@
     - 資料結構
         + Dict
         + List
-        + (Queue) - 補充
-        + (Tree) - 補充
+        + ~~(Queue) - 補充~~
+        + ~~(Tree) - 補充~~
 
 
-+ 建立第一支程式（Python 的哲學）
++ 中階教程
     - 函式: def fun()
     - 讓程式簡潔又快速: 生成式 (Comprehension)
     - 錯誤怎麼辦？: 例外處理
