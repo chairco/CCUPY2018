@@ -47,6 +47,7 @@
 
 ### 爬蟲
 + [爬蟲教學](https://github.com/leVirve/CrawlerTutorial)
++ [比美麗更美麗](https://aji.tw/slides/pycon2017/#/)
 
 
 ### 進階補充
