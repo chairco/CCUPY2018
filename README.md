@@ -22,7 +22,10 @@
 
 ## 進階應用
 
-[課程資料夾](/Python進階應用)
++ [課程資料夾](/Python進階應用)
++ [課前準備](/Python進階應用/課前準備.md)
++ [Sli.do 即時提問(輸入:尚未開始)](https://www.sli.do/)
++ [問卷](https://docs.google.com/forms/d/e/1FAIpQLSeEfrAJ9aXuxttlxiQP0cP1cQLmoJe2vJZRw8K22BY6n5_NgA/viewform)
 
 
 ## 參考資源
