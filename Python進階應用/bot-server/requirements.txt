@@ -1,0 +1,15 @@
+certifi==2018.10.15
+chardet==3.0.4
+Click==7.0
+Flask==1.0.2
+future==0.17.0
+gunicorn==19.9.0
+idna==2.7
+itsdangerous==0.24
+Jinja2==2.10
+line-bot-sdk==1.8.0
+MarkupSafe==1.0
+python-dotenv==0.9.1
+requests==2.20.0
+urllib3==1.24
+Werkzeug==0.14.1
