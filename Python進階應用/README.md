@@ -5,7 +5,7 @@
 
 ### 課程大綱
 
-+ Git 是什麼？
++ Git 是什麼？([簡報-黑狗兄](https://slides.aweimeow.tw/nccu-git/))
     + git 基本操作
     + github 建立一個 repo 與上傳程式碼
 
